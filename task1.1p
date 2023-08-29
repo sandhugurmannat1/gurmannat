@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        GURMANNAT SANDHU
+    </title>
+</head>
+
+<body>
+    <h1>this is HEADING tag.</h1>
+    <p>This is a PARAGRAPH tag!!</p>
+
+    <h2>This is the 2nd HEADING</h2>
+    <h3>This is the 3rd HEADING</h3>
+
+    <IMG SRC="c:\Users\sandh\OneDrive\Desktop\SIT120\TASK1.1\OIP.jpeg" img/>
+    
+    <meta charset = "UTF-8" />
+    <meta name="viewport" content="width=device-width, initial"
+    <title>My tables</title>
+
+    <style>
+
+       table{
+          border-collapse: collapse;
+
+       }
+
+       tr,
+       th,
+       td {
+          padding: 20px;
+          border: 4px solid palevioletred;
+          font-size: 40px;
+       }
+     </style>
+</head>
+<body>
+    <table>
+        <caption style="">This is my table</caption>
+        <tr>
+            <th> NAME</th>
+            <th> SURNAME</th>
+            <th> DOB</th>
+            <th> GENDER</th>
+            <th> HEIGHT</th>
+            <th> WEIGHT</th>
+        </tr>
+        <tr>
+            <td> GURMANNAT</td>
+            <td> SANDHU</td>
+            <td> 20/08/2004</td>
+            <td> FEMALE</td>
+            <td> 165cm</td>
+            <td> 47kg</td>
+        </tr>
+        <tr>
+            <td> ARSHEEN</td>
+            <td> KAUR</td>
+            <td> 05/01/2005</td>
+            <td> FEMALE</td>
+            <td> 167cm</td>
+            <td> 48kg</td>
+        </tr>
+        <tr>
+            <td> MAYANK</td>
+            <td> GAUTAM</td>
+            <td> 15/08/2003</td>
+            <td> MALE</td>
+            <td> 183cm</td>
+            <td> 70kg</td>
+        </tr>
+        <tr>
+            <td> AVIKSHA</td>
+            <td> KOUNDINYA</td>
+            <td> 28/03/2003</td>
+            <td> FEMALE</td>
+            <td> 170cm</td>
+            <td> 55kg</td>
+        </tr>
+
+        
+    </table>
+
+    <meta charset = "UTF-8" />
+    <meta name="viewport" content="width=device-width, initial"
+    <title>My tables</title>
+
+    <style>
+        body {
+            background-color: rgb(211, 164, 199);
+            
+        }
+        .formstyle {
+            background-color: bisque;
+            font-family: 'lucida sana', 'lucida sans regular', 'lucida Grande', 'lucida sans unicode', Geneva, verdana ;
+            max-width: 70%;
+            Margin: auto;
+            padding: 20px;
+
+        }
+        .submitbutton{
+            background-color: rgb(171, 79, 151);
+            color:rgb(35, 97, 151);
+            width: 100%;
+            height: 200px;
+            padding: 10px;
+            font-size: 50px;
+            font-family:Arial, Helvetica, sans-serif
+        }
+            
+    </style>
+</head>
+<body>
+    <h1> This is my survey form! </h1>
+
+
+
+    <form>
+
+        <label for="name">NAME: </label>
+        <input type="text" name="name">
+        <br>
+
+        <label for="name">AGE: </label>
+        <input type="text" name="name">
+        <br>
+
+        <div>
+
+        <label for="name">EMAIL: </label>
+        <input type="text" name="name">
+
+        <br>
+        <label for="name">CONTACT NO.: </label>
+        <input type="number" name="name">
+
+        </div>
+
+        <div>
+            <fieldset><label>Please select an option:</label>
+                <select>
+                    <option selected disabled>select an option</option>
+                    <option value="">Mrs</option>
+                    <option value="">Mr</option>
+                    <option value="">Miss</option>
+                    <option value="">prefer not to answer</option>
+                </select>                
+            </fieldset>
+        </div>
+
+        <div>
+            <fieldset>
+                <h2>Select which one suites you the most:</h2>
+            <label><input type="checkbox" name="game">soccer</label>
+            <br/>
+            <label><input type="checkbox" name="movie">table tennis</label>
+            <br/>
+            <label><input type="checkbox" name="music">basketball</label>
+            </fieldset>
+
+        </div>
+        
+        <div>
+            <fieldset>
+                <h2>Select which one suites you the most:</h2>
+            <label><input type="radio" name="game">high school</label>
+            <br/>
+            <label><input type="radio" name="movie">university</label>
+            <br/>
+            <label><input type="radio" name="music">middle school</label>
+            </fieldset>
+
+        </div>
+
+        <div>
+            <fieldset>
+
+                <textarea style="height: 100px;width: 200px;">Thoughts on this survey</textarea>
+            </fieldset>
+        </div>
+
+        <div>
+            date:
+            <textarea style="height: 25px;width: 89px;">_/_/_</textarea>
+        </div>
+
+        
+</body>
+</html>
